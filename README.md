@@ -1,11 +1,6 @@
 # ndvistats
-Jupyter Notebook com fluxo de cálculo de estatísticas zonais para polígonos selecionados utilizando geopandas, google earth engine api, rasterio, rasterstats e folium.
+Jupyter Notebook with flow calculation of zonal statistics for selected polygons using geopandas, google earth engine api, rasterio, rasterstats and folium.
 
-O objetivo do código é aplicar operações em vetores e dados raster utilizando python, e elaboração de figuras em QGIS.
+The purpose of the code is to apply operations on vectors and raster data using python, and drawing figures in QGIS.
 
-Encontrar geometrias inválidas no arquivo polygons_test.GeoJSON. Propor um método de correção em python e aplicá-lo;
-Calcular a área dos polígonos em hectares;
-Utilizando o layer de UCs, obter para cada polígono se há intersect com alguma UC. Calcular a área de intersect e obter o nome da UC correspondente a cada polígono;
-Baixar as últimas 5 datas de imagem Sentinel-2 (sem nuvem), calcular NDVI e recortar as imagens utilizando os polígonos obtidos no item anterior.
-Calcular estatísticas zonais de média, mínimo,máximo e desvio padrão de NDVI referente a cada imagem.
-Gerar mapas de NDVI recortado para cada data de imagem Sentinel-2. Utilizar preferencialmente map-composer do QGIS.
+Find invalid geometries in the polygons_test.GeoJSON file. Propose a correction method in python and apply it; Calculate the area of ​​the polygons in hectares; Using the UC layer, obtain for each polygon if there is an intersection with any UC. Calculate the intersect area and obtain the name of the UC corresponding to each polygon; Download the last 5 Sentinel-2 image dates (without cloud), calculate NDVI and crop the images using the polygons obtained in the previous item. Calculate zonal statistics of mean, minimum, maximum and standard deviation of NDVI for each image. Generate cropped NDVI maps for each Sentinel-2 image date. Preferably use QGIS map-composer.
